@@ -1,0 +1,7 @@
+<div class="w-100 employee-page">
+    <pagetitle [titleDesc]="roleDetailsPageDesc"></pagetitle>
+    <div class="role-card-container w-100 d-grid">
+        <employeecard [employee]="employee" *ngFor="let employee of employeeList"></employeecard>
+    </div>
+</div>
+

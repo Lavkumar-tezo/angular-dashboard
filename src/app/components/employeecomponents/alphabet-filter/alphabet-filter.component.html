@@ -1,0 +1,10 @@
+<div class="toggle-filter-section d-flex" title="Hide Filter Section">
+    <img src="assets/icons/filter-red.svg" alt="filter-icon" class="filter-icon" id="filter-icon" />
+</div>
+<ul class="alphabet-list flex-container w-100 jus-content-btw">
+    <li class="alphabet" *ngFor="let letter of alphabet"
+        [class.active-alphabet-filter]="letter === selectedAlphabet"
+        (click)="onAlphabeticSelect(letter)">
+        {{ letter }}
+    </li>
+</ul>

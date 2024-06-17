@@ -1,0 +1,7 @@
+.employee-page{
+    gap:0.5rem;
+    display: flex;
+    height: 100%;
+    overflow: scroll;
+    flex-direction: column;
+}
